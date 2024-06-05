@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(#14131b, #19191B), 
+              radial-gradient(circle at 30% 30%, rgba(85, 6, 122, 0.2), transparent 50%), 
+              radial-gradient(circle at 70% 70%, rgba(0, 0, 0, 0.2), transparent 50%);
+  background-blend-mode: overlay;
+  background-size: cover;
+}
